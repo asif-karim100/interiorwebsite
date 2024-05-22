@@ -1,0 +1,163 @@
+/*
+General styles for the navigation
+.horizontal-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: #f0f0f0; 
+}
+
+.horizontal-nav li {
+  margin: 0 20px;
+}
+
+.horizontal-nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px; /* Increased font size */
+  /* padding: 10px;
+}
+
+.horizontal-nav li a:hover {
+  color: rgb(86, 86, 116);
+}
+
+/* Media query for responsiveness */
+/* @media (max-width: 768px) {
+  .horizontal-nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .horizontal-nav li {
+      margin: 5px 0;
+  }
+} */
+  /* Styles for the hamburger menu icon */
+  /* .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+  } */
+  
+  /* Responsive styles */
+  /* @media (max-width: 768px) {
+    .horizontal-nav {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .horizontal-nav.open {
+      display: flex;
+    }
+    
+    .horizontal-nav li {
+      margin: 10px 0;
+    }
+    
+    .menu-icon {
+      display: block;
+    }
+  } */
+  /*
+
+
+
+
+  //////////////
+  /* General styles for the navigation */
+/* General styles for the navigation */
+.horizontal-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+ 
+  background-color: #f0f0f0; 
+}
+
+.horizontal-nav li {
+   margin: 0 20px;
+  padding: 10px;
+   
+ 
+}
+
+.horizontal-nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px; /* Increased font size */
+  padding: 10px;
+  
+}
+
+.horizontal-nav li a:hover {
+  color: rgb(86, 86, 116);
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .horizontal-nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .horizontal-nav li {
+      margin: 5px 0;
+  }
+}
+
+/* Styles for the hamburger menu icon */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .horizontal-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .horizontal-nav.open {
+    display: flex;
+  }
+  
+  .horizontal-nav li {
+    margin: 10px 0;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+}
+
+/* Additional styles for the main content to adjust margins */
+.main-content {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+@media (min-width: 769px) {
+  .main-content {
+    padding-top: 40px; /* Adjust this value to reduce the gap */
+  }
+}
+
+.logo {
+  margin-right: 10px; /* Adjust margin as needed */
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}

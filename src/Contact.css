@@ -1,0 +1,76 @@
+/* Ensure the body and html take up full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make the contact-container take up full height of the viewport */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 0;
+  min-height: 100vh; /* Minimum height of 100% of the viewport height */
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.contact-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .contact-form {
+    width: 100%;
+  }
+}
